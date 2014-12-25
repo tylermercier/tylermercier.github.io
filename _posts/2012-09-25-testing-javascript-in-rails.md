@@ -14,48 +14,38 @@ First, you will need to be using a version of Rails with the Asset Pipeline. Thi
 
 Second, we are going to be using PhantomJS to run the tests. Install [PhantomJS](http://phantomjs.org/) with your favourite package manager (homebrew for me).
 
-``` bash PhantomJS
-
+```bash
 brew install phantomjs
-
 ```
 
 Now we are ready to begin. I am going to go through this with a new project, but there should be no difficulty in adding this to an existing rails project.
 
-``` bash Create Project
-
+```bash
 rails new example_project
-
 ```
 
 Next, update the gemfile. I use RSpec, but that is just a personal preference.
 
-``` ruby Gemfile
-
+```ruby
 group :development, :test do
   gem "rspec-rails"
   gem 'jasminerice'
 end
-
 ```
 
 Install RSpec
 
-``` bash Install
-
+```bash
 bundle install
 rails generate rspec:install
-
 ```
 
 Now we need to setup the testing folder. Create a folder under spec called 'javascripts' and then add the following spec helper file to it. Ignore the console reporter part for now.
 
-``` coffeescript spec/javascripts/spec.js.coffee
-
+```coffeescript
 #= require application
 #= require_tree ./
 #= require jasmine.ConsoleReporter
-
 ```
 
 Now you should be able to load up your tests in a browser by starting your rails server and navigating to [localhost/jasmine](http://localhost:3000/jasmine)
@@ -63,30 +53,25 @@ Now you should be able to load up your tests in a browser by starting your rails
 
 Let's add a CoffeeScript class with a jasmine spec
 
-``` coffeescript app/assets/javascripts/example.js.coffee
-
+```coffeescript
 class window.Example
   load: ->
     'Hello'
-
 ```
 
-``` coffeescript spec/javascripts/example_spec.js.coffee
-
+```coffeescript
 describe 'Example', =>
   describe 'load', =>
     it 'should return hello', =>
       example = new window.Example()
       expect(example.load()).toBe('hello')
-
 ```
 
 If everything worked correctly, [localhost/jasmine](http://localhost:3000/jasmine) should now show your failing spec. Before you fix it, let's continue with getting jasmine working from the command line.
 
 Remember that console reporter? We will we need to add that to report the jasmine test output to the terminal. Let's place it in the vendor folder (vendor/assets/javascripts).
 
-``` javascript vendor/assets/javascripts/jasmine.ConsoleReporter.js
-
+```javascript
 (function(jasmine, console) {
 
   if (!jasmine) { throw "jasmine library isn't loaded!"; }
@@ -166,14 +151,11 @@ Remember that console reporter? We will we need to add that to report the jasmin
   };
 
 })(jasmine, console);
-
-
 ```
 
 We are almost finished. Next we need to add a rake task to run the javascript tests. Add the following under lib/tasks
 
-``` ruby lib/tasks/jasmine.rake
-
+```ruby
 require 'rubygems'
 
 namespace :jasmine do
@@ -218,13 +200,11 @@ end
 task :spec do
   Rake::Task['jasmine:spec'].invoke
 end
-
 ```
 
 Finally add the phantomjs runner under lib/tasks as well.
 
-``` coffeescript lib/tasks/phantomjs_runner.coffee
-
+```coffeescript
 # Script Begin
 if phantom.args.length == 0
   console.log "Need a url as the argument"
@@ -276,15 +256,12 @@ page.open address, (status) ->
     phantom.exit 1
 
   reportWatcher.run(page);
-
 ```
 
 That's it. Run the following:
 
-``` bash Install
-
+```bash
 rake jasmine:spec
-
 ```
 
 You should now see the same test failure from before. Fix the case in 'Hello' and you will have your first passing JavaScript test.

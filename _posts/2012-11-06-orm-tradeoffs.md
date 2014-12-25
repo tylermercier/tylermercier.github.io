@@ -16,14 +16,12 @@ Make no mistake, ORMs are a compromise. Choosing to use an ORM library will not 
 
 Every ORM has some SQL concepts bleeding into it and you can never fully abstract away the implementation details. Configuration, mappings and relationships will require a deep understanding of how relational databases work and how to optimize them. There are no silver bullets.
 
-``` csharp SQL bleeding into code
-
+```csharp
 var catNames = session.QueryOver<Cat>()
   .WhereRestrictionOn(c => c.Age).IsBetween(2).And(8)
   .Select(c => c.Name)
   .OrderBy(c => c.Name).Asc
   .List<string>();
-
 ```
 
 ### Inefficient Abstraction
@@ -52,8 +50,7 @@ This is primarily what ORMs were created for, so it shouldn’t be surprising th
 
 An ORM easily generates most of your SQL queries from your data models and mappings. Some SQL queries will bleed the underlying query details into your application, but generally in a way that can be kept [DRY](http://en.wikipedia.org/wiki/Don%27t_repeat_yourself) and still ignore impedance mismatch details. For example, the code below has some knowledge of SQL, but manages to handle all CRUD operations in a highly reusable fashion.
 
-``` csharp CRUD Handling
-
+```csharp
 public class Repository : IRepository {
     public ISession Session { get; private set; }
 
@@ -96,7 +93,6 @@ public class Repository : IRepository {
         }
     }
 }
-
 ```
 
 ### Separation of Concerns
