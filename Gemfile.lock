@@ -63,9 +63,6 @@ GEM
       redcarpet (~> 3.1)
       safe_yaml (~> 1.0)
       toml (~> 0.1.0)
-    jekyll-asset-pipeline (0.1.2)
-      jekyll (>= 0.10.0)
-      liquid (>= 1.9.0)
     jekyll-coffeescript (1.0.1)
       coffee-script (~> 2.2)
     jekyll-gist (1.1.0)
@@ -122,7 +119,6 @@ GEM
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
     yajl-ruby (1.1.0)
-    yui-compressor (0.12.0)
 
 PLATFORMS
   ruby
@@ -130,7 +126,5 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll
-  jekyll-asset-pipeline
   rake
   redcarpet
-  yui-compressor
