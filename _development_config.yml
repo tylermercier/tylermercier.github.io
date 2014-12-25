@@ -1,0 +1,17 @@
+# Dependencies
+markdown:         redcarpet
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            'Code Curiosity'
+tagline:          'Prying for knowledge'
+description:      ''
+url:              http://localhost:4000
+baseurl:          '/'
+paginate:         5
+
+author:
+  name:           'Tyler Mercier'
+  url:            https://codecuriosity.com

@@ -1,0 +1,9 @@
+test/dest
+*.gem
+pkg/
+*.swp
+*~
+.DS_Store
+.bundle/
+_drafts/
+_site/
