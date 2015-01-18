@@ -2,7 +2,6 @@
 layout: post
 title: "Google Translation Service"
 date: 2009-03-30
-comments: false
 categories: blog
 ---
 

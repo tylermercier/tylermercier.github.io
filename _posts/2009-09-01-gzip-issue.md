@@ -2,7 +2,6 @@
 layout: post
 title: "Gzip Issue"
 date: 2009-09-01
-comments: false
 categories: blog
 ---
 

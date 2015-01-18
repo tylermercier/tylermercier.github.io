@@ -2,7 +2,6 @@
 layout: post
 title: "IPhone Development Guide"
 date: 2010-03-02
-comments: false
 categories: blog
 ---
 

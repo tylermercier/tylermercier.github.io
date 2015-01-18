@@ -2,7 +2,6 @@
 layout: post
 title: "Google Maps"
 date: 2008-12-05
-comments: false
 categories: blog
 ---
 

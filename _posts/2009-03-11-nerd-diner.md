@@ -2,7 +2,6 @@
 layout: post
 title: "Nerd Diner"
 date: 2009-03-11
-comments: false
 categories: blog
 ---
 

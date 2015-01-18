@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Setup Postgres"
-date: 2013-11-03 10:41
-comments: true
+date: 2013-11-03
 categories: blog
 ---
 

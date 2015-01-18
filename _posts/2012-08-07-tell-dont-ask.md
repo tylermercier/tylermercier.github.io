@@ -2,7 +2,6 @@
 layout: post
 title: "Tell, Don't Ask"
 date: 2012-08-07 15:15
-comments: true
 categories: blog
 ---
 

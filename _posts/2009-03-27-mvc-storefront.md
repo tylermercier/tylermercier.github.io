@@ -2,11 +2,10 @@
 layout: post
 title: "MVC Storefront"
 date: 2009-03-27
-comments: false
 categories: blog
 ---
 
-Rob Conery made some pretty fundamental changes to his project and covers it all in depth. 
+Rob Conery made some pretty fundamental changes to his project and covers it all in depth.
 
 [MIX09 Presentation](http://videos.visitmix.com/MIX09/T62F)
 

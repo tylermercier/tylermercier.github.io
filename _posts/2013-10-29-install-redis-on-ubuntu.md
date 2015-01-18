@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Install Redis on Ubuntu"
-date: 2013-10-29 20:26
-comments: true
+date: 2013-10-29
 categories: blog
 ---
 

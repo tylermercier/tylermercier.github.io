@@ -2,7 +2,6 @@
 layout: post
 title: "Object-Oriented Design Basics"
 date: 2009-10-22
-comments: false
 categories: blog
 ---
 

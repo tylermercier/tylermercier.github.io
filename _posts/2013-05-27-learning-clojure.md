@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Learning Clojure"
-date: 2013-05-27 17:34
-comments: true
+date: 2013-05-27
 categories: blog
 ---
 

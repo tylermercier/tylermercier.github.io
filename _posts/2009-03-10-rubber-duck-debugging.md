@@ -2,7 +2,6 @@
 layout: post
 title: "Rubber Duck Debugging"
 date: 2009-03-10
-comments: false
 categories: blog
 ---
 

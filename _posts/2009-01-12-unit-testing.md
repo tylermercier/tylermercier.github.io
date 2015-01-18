@@ -2,7 +2,6 @@
 layout: post
 title: "Unit Testing"
 date: 2009-01-12
-comments: false
 categories: blog
 ---
 

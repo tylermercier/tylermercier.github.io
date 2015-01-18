@@ -2,7 +2,6 @@
 layout: post
 title: "Simpson’s Paradox"
 date: 2009-08-28
-comments: false
 categories: blog
 ---
 

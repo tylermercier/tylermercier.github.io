@@ -2,7 +2,6 @@
 layout: post
 title: "Instant Django"
 date: 2009-08-27
-comments: false
 categories: blog
 ---
 

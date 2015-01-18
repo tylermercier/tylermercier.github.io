@@ -2,7 +2,6 @@
 layout: post
 title: "Blog Migration"
 date: 2009-08-30
-comments: false
 categories: blog
 ---
 

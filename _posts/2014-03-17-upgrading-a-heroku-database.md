@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Upgrading a Heroku Database"
-date: 2014-03-17 20:20
-comments: true
+date: 2014-03-17
 categories: blog
 ---
 

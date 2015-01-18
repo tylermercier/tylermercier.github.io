@@ -2,7 +2,6 @@
 layout: post
 title: "Quality Time"
 date: 2009-09-25
-comments: false
 categories: blog
 ---
 

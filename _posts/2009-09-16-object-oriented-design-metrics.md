@@ -2,7 +2,6 @@
 layout: post
 title: "Object-Oriented Design Metrics"
 date: 2009-09-16
-comments: false
 categories: blog
 ---
 

@@ -2,7 +2,6 @@
 layout: post
 title: "Too Many Articles"
 date: 2009-09-03
-comments: false
 categories: blog
 ---
 

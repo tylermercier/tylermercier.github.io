@@ -2,7 +2,6 @@
 layout: post
 title: "ReSharper Shortcuts"
 date: 2009-08-26
-comments: false
 categories: blog
 ---
 

@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "ORM Tradeoffs"
-date: 2012-11-06 11:14
-comments: true
+date: 2012-11-06
 categories: blog
 ---
 

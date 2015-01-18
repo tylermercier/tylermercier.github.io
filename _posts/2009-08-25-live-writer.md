@@ -2,7 +2,6 @@
 layout: post
 title: "Live Writer"
 date: 2009-08-25
-comments: false
 categories: blog
 ---
 

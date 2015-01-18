@@ -2,7 +2,6 @@
 layout: post
 title: "What is NuGet"
 date: 2011-03-28
-comments: false
 categories: blog
 ---
 

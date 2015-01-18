@@ -2,7 +2,6 @@
 layout: post
 title: "Problematic Processes"
 date: 2009-10-15
-comments: false
 categories: blog
 ---
 

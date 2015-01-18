@@ -2,11 +2,10 @@
 layout: post
 title: "Programmer Professionalism"
 date: 2009-10-27
-comments: false
 categories: blog
 ---
 
-I repeatedly hear, as a programmer, that I should be concerned with my overall professionalism. I should be concerned with the quality of what I produce, the knowledge and experience that I have obtained through work and education and the attitude I bring towards solving complexity. 
+I repeatedly hear, as a programmer, that I should be concerned with my overall professionalism. I should be concerned with the quality of what I produce, the knowledge and experience that I have obtained through work and education and the attitude I bring towards solving complexity.
 
 I should be a professional, no different than say a doctor, a lawyer or an engineer. Engineer is even in my title, it is so clear.
 

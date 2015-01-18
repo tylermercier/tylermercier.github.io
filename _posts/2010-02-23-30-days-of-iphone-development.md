@@ -2,7 +2,6 @@
 layout: post
 title: "30 Days of iPhone Development"
 date: 2010-02-23
-comments: false
 categories: blog
 ---
 

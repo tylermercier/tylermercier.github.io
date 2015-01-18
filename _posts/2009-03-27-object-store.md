@@ -2,7 +2,6 @@
 layout: post
 title: "Object Store"
 date: 2009-03-27
-comments: false
 categories: blog
 ---
 

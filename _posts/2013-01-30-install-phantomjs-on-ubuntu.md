@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Install PhantomJS on Ubuntu"
-date: 2013-01-30 18:08
-comments: true
+date: 2013-01-30
 categories: blog
 ---
 

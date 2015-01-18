@@ -2,7 +2,6 @@
 layout: post
 title: "Predicates"
 date: 2009-09-02
-comments: false
 categories: blog
 ---
 

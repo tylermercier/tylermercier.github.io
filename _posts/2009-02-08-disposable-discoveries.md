@@ -2,7 +2,6 @@
 layout: post
 title: "Disposable Discoveries"
 date: 2009-02-08
-comments: false
 categories: blog
 ---
 

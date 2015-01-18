@@ -2,7 +2,6 @@
 layout: post
 title: "Postsharp"
 date: 2008-12-04
-comments: false
 categories: blog
 ---
 

@@ -2,7 +2,6 @@
 layout: post
 title: "PURE HTML Templates"
 date: 2010-05-26
-comments: false
 categories: blog
 ---
 

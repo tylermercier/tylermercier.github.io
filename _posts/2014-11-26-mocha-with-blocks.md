@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Mocha with blocks"
-date: 2014-11-26 19:26
-comments: true
+date: 2014-11-26
 categories: blog
 ---
 

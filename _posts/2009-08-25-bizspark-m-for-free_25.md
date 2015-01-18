@@ -2,7 +2,6 @@
 layout: post
 title: "BizSpark - M$ for free"
 date: 2009-08-25
-comments: false
 categories: blog
 ---
 

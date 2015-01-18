@@ -2,7 +2,6 @@
 layout: post
 title: "May Tumblr Migration"
 date: 2009-05-19
-comments: false
 categories: blog
 ---
 

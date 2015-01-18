@@ -2,7 +2,6 @@
 layout: post
 title: "Sublime: Tab Size Per Extension"
 date: 2015-01-18
-comments: false
 categories: blog
 ---
 

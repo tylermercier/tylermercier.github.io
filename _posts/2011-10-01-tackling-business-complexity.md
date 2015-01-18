@@ -2,7 +2,6 @@
 layout: post
 title: "Tackling Business Complexity"
 date: 2011-10-01
-comments: false
 categories: blog
 ---
 

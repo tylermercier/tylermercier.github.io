@@ -2,7 +2,6 @@
 layout: post
 title: "Technical Debt"
 date: 2009-09-04
-comments: false
 categories: blog
 ---
 

@@ -2,7 +2,6 @@
 layout: post
 title: "Method Exit Points"
 date: 2009-02-02
-comments: false
 categories: blog
 ---
 

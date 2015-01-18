@@ -2,7 +2,6 @@
 layout: post
 title: "StackOverflow - Garbage In, Garbage Out"
 date: 2010-01-21
-comments: false
 categories: blog
 ---
 

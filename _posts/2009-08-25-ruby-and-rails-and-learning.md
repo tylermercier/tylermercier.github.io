@@ -2,7 +2,6 @@
 layout: post
 title: "Ruby and Rails and Learning"
 date: 2009-08-25
-comments: false
 categories: blog
 ---
 

@@ -2,7 +2,6 @@
 layout: post
 title: "Objective-C Libraries and Tools"
 date: 2010-03-06
-comments: false
 categories: blog
 ---
 

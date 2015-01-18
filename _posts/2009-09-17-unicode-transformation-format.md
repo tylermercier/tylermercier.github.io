@@ -2,7 +2,6 @@
 layout: post
 title: "Unicode Transformation Format"
 date: 2009-09-17
-comments: false
 categories: blog
 ---
 

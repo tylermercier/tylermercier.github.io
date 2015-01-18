@@ -2,7 +2,6 @@
 layout: post
 title: "Objective-c Inheritance & Message Passing"
 date: 2010-03-29
-comments: false
 categories: blog
 ---
 

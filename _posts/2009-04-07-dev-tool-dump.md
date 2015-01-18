@@ -2,7 +2,6 @@
 layout: post
 title: "Dev Tool Dump"
 date: 2009-04-07
-comments: false
 categories: blog
 ---
 

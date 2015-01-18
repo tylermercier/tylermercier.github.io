@@ -2,7 +2,6 @@
 layout: post
 title: "Conditions and Dictionaries"
 date: 2011-10-17
-comments: false
 categories: blog
 ---
 
